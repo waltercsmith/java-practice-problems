@@ -28,6 +28,12 @@ public class warmup {
             return a + b;
     }
 
+    /*Given an int n, return the absolute difference between n and 21, except return double the absolute difference if      n is over 21*/
+
+    public int diff21(int n){
+        return n -21;
+    }
+
 
 	public static void main(String[] args){
         System.out.println(sleepIn(true,false));
