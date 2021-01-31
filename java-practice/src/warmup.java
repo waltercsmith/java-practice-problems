@@ -39,7 +39,15 @@ public class warmup {
 
     /*We have a loud talking parrot. The "hour" parameter is the current hour time in the range 0..23. We are in trouble if the parrot is talking and the hour is       before 7 or after 20. Return true if we are in trouble*/
 
-
+    public boolean parrotTrouble(boolean talking, int hour) {
+        if(hour < 7 && talking == false){
+            return false;
+        }
+        if(hour < 7 || hour > 20 && talking == true){
+            return true;
+        }
+        return false;
+    }
 
 
 	public static void main(String[] args){
@@ -50,6 +58,7 @@ public class warmup {
         System.out.println(sumDouble(1, 2));
         System.out.println(sumDouble(3, 2));
         System.out.println(sumDouble(2, 2));
+
 
     }
 
