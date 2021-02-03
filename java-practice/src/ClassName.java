@@ -66,5 +66,16 @@ public class ClassName {
         c /= d; //shorthand assignment
         d -= c; //shorthand assignment
 
+//        Assign a value to a numerical variable that is larger (or smaller) than the type can hold?
+//        double bigNumber = 1.7E308;
+//        float smallerThanBigNumber = bigNumber;
+
+//        Can not assign a value to a numerical variable that is larger than the type can hold
+
+        float smallerNumber = 3.4E30f;
+        double bigNumber = smallerNumber;
+
+//        Can assign a value to a numerical variable that is smaller than the type can hold
+
     }
 }
