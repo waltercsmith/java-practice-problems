@@ -78,5 +78,12 @@ public class ClassName {
 
 //        Can assign a value to a numerical variable that is smaller than the type can hold
 
+//        What happens if you increment a numeric variable past the type's capacity?
+
+        byte oneTwentySeven = 127;
+        System.out.println(++oneTwentySeven);
+
+//        The value resets and returns to the lowest number which will be one above the highest number but negtave. Example: increment past a byte will return a -128
+
     }
 }
