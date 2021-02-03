@@ -74,6 +74,7 @@ public class ClassName {
 
         float smallerNumber = 3.4E30f;
         double bigNumber = smallerNumber;
+        int andAnotherNumber = 30;
 
 //        Can assign a value to a numerical variable that is smaller than the type can hold
 
