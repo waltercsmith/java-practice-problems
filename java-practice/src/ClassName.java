@@ -85,5 +85,9 @@ public class ClassName {
 
 //        The value resets and returns to the lowest number which will be one above the highest number but negtave. Example: increment past a byte will return a -128
 
+        int i = Integer.MAX_VALUE;
+        System.out.println(i);
+
+//        Curious to why the output is 2147483647
     }
 }
