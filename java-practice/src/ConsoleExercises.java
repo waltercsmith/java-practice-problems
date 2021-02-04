@@ -29,9 +29,11 @@ public class ConsoleExercises {
 
         System.out.println("Enter 3 words");
         Scanner sc = new Scanner(System.in);
-        String userInput = sc.nextLine();
+        String userInput = sc.next();
+        String user2ndInput = sc.next();
+        String user3rdInput = sc.next();
 
-        System.out.println(userInput);
+        System.out.println(userInput + "\n" + user2ndInput + "\n" + user3rdInput);
 
 
     }
