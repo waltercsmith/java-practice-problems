@@ -40,20 +40,28 @@ public class ConsoleExercises {
 
 //        Prompt a user to enter a sentence, then store that sentence in a String variable using the next method. Then, display that sentence back to the user.
 
-        System.out.println("Please enter a sentence");
-        Scanner scannerSentence = new Scanner(System.in);
-        String userSentence = scannerSentence.next();
-        System.out.println(userSentence);
+//        System.out.println("Please enter a sentence");
+//        Scanner scannerSentence = new Scanner(System.in);
+//        String userSentence = scannerSentence.next();
+//        System.out.println(userSentence);
 
 //        All the words are not captured in the above code to display on the console, only the first word Telekinesis
 
 
-        System.out.println("Please enter a sentence");
-        Scanner scannerSentence2 = new Scanner(System.in);
-        String userSentence2 = scannerSentence2.nextLine();
-        System.out.println(userSentence2);
+//        System.out.println("Please enter a sentence");
+//        Scanner scannerSentence2 = new Scanner(System.in);
+//        String userSentence2 = scannerSentence2.nextLine();
+//        System.out.println(userSentence2);
 
 //        The above code allows the user to input a sentence (which has spaces between words) and display on the console
+
+
+//        Display the area and perimeter of a classroom that is a rectangle
+//        The area of a rectangle is equal to the length times the width, and the perimeter of a rectangle is equal to 2 times the length plus 2 times the width
+        int length = 10;
+        int width = 5;
+
+        System.out.println((2 * length) + (2 * width));
 
 
 
