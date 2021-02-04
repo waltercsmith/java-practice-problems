@@ -9,7 +9,7 @@ public class ConsoleExercises {
 
 
 
-        System.out.format("The value of pi is approximately " + pi);
+        System.out.format("The value of pi is approximately %.2f", pi);
 
 
     }
