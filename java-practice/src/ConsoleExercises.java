@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class ConsoleExercises {
 
     public static void main(String[] args){
@@ -9,10 +11,17 @@ public class ConsoleExercises {
 
 
 
-        System.out.format("The value of pi is approximately %.2f", pi);
+//        System.out.format("The value of pi is approximately %.2f \n", pi);
 
 //        Didn't change the value of the variable; instead, used System.out.format to accomplish this
 
+
+//        Prompt a user to enter a integer and store that value in an int variable using the nextInt method
+
+        System.out.println("Please enter an integer:");
+        Scanner scanner = new Scanner(System.in);
+        int userInputInteger = scanner.nextInt();
+        System.out.println("The user entered: " + userInputInteger);
 
     }
 }
