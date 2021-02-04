@@ -48,7 +48,12 @@ public class ConsoleExercises {
 //        All the words are not captured in the above code to display on the console, only the first word Telekinesis
 
 
+        System.out.println("Please enter a sentence");
+        Scanner scannerSentence2 = new Scanner(System.in);
+        String userSentence2 = scannerSentence2.nextLine();
+        System.out.println(userSentence2);
 
+//        The above code allows the user to input a sentence (which has spaces between words) and display on the console
 
 
 
