@@ -18,13 +18,20 @@ public class ConsoleExercises {
 
 //        Prompt a user to enter a integer and store that value in an int variable using the nextInt method
 
-        System.out.println("Please enter an integer:");
-        Scanner scanner = new Scanner(System.in);
-        int userInputInteger = scanner.nextInt();
-        System.out.println("The user entered: " + userInputInteger);
+//        System.out.println("Please enter an integer:");
+//        Scanner scanner = new Scanner(System.in);
+//        int userInputInteger = scanner.nextInt();
+//        System.out.println("The user entered: " + userInputInteger);
 
 //        If the input is not an Integer the console displays an Exception in thread "main" message
 
+//        Prompt a user to enter 3 words, and store each of them in a separate variable. Then, display them back in the console, each on a newline
+
+        System.out.println("Enter 3 words");
+        Scanner sc = new Scanner(System.in);
+        String userInput = sc.nextLine();
+
+        System.out.println(userInput);
 
 
     }
