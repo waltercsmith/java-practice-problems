@@ -11,6 +11,8 @@ public class ConsoleExercises {
 
         System.out.format("The value of pi is approximately %.2f", pi);
 
+//        Didn't change the value of the variable; instead, used System.out.format to accomplish this
+
 
     }
 }
