@@ -1,17 +1,21 @@
+//importing the Scanner class from the java.util package
+
+import java.util.Scanner;
+
 public class ClassName {
     public static void main(String [] args) {
-        System.out.println("Hello, Walter! Stay Sharp!");
+//        System.out.println("Hello, Walter! Stay Sharp!");
+//
+//        System.out.println("Walter is awesome!");
 
-        System.out.println("Walter is awesome!");
-
-        int myFavoriteNumber; //declared int variable
-        myFavoriteNumber = 308; // initialized in variable
-        System.out.print(myFavoriteNumber + "\n");
+//        int myFavoriteNumber; //declared int variable
+//        myFavoriteNumber = 308; // initialized in variable
+//        System.out.print(myFavoriteNumber + "\n");
 
 //        Create a String variable named myString and assign a string value to it, then print the variable out to the       console.
 
-        String myString = "Walter";
-        System.out.print(myString + "\n");
+//        String myString = "Walter";
+//        System.out.print(myString + "\n");
 
 //        Change your code to assign a character value to myString. What do you notice?
 //        String myString = 'W';
@@ -80,14 +84,39 @@ public class ClassName {
 
 //        What happens if you increment a numeric variable past the type's capacity?
 
-        byte oneTwentySeven = 127;
-        System.out.println(++oneTwentySeven);
+//        byte oneTwentySeven = 127;
+//        System.out.println(++oneTwentySeven);
 
 //        The value resets and returns to the lowest number which will be one above the highest number but negtave. Example: increment past a byte will return a -128
 
-        int i = Integer.MAX_VALUE;
-        System.out.println(i);
+//        int i = Integer.MAX_VALUE;
+//        System.out.println(i);
 
 //        Curious to why the output is 2147483647
+
+
+        String waltersName = "Walter";
+//        System.out.printf("Hello %s!\nIt's a pleasure to meet you! ", waltersName);
+
+//        System.out.printf() defines a string w/ a placeholder & pass a value for the placeholder. The %s is the placeholder
+
+//        You can also use multiple placeholders:
+//        String greeting = "Salutations";
+//        String name = "codeup";
+//        System.out.printf("%s, %s!", greeting, name);
+
+
+        Scanner nameOfScanner = new Scanner(System.in);
+        System.out.println("Hey, " + waltersName + " what's your lastname?");
+        String userInput = nameOfScanner.next();
+        System.out.println(waltersName + "'s last name is: " + userInput);
+        System.out.println("It's a pleasure to meet you, " + waltersName + " " + userInput);
+        System.out.println("--------- " + waltersName + " ---------\n--------- " + userInput +" ---------");
+
+
+
+
+
+
     }
 }
