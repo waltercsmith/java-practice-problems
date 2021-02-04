@@ -58,10 +58,24 @@ public class ConsoleExercises {
 
 //        Display the area and perimeter of a classroom that is a rectangle
 //        The area of a rectangle is equal to the length times the width, and the perimeter of a rectangle is equal to 2 times the length plus 2 times the width
-        int length = 10;
-        int width = 5;
+//        int length = 10;
+//        int width = 5;
+//
+//        System.out.println((2 * length) + (2 * width));
+//
+//        int anotherLength = 10;
+//        int anotherWidth = 5;
+//
+//        double perimeterCalc = (2 * anotherLength) + (2 * anotherWidth);
 
-        System.out.println((2 * length) + (2 * width));
+        System.out.println("Enter two number (include a space to separate the two numbers Example: 23 3456)");
+        Scanner scanner2Numbers = new Scanner(System.in);
+        float userNumber = scanner2Numbers.nextFloat();
+        float userNumber2 = scanner2Numbers.nextFloat();
+
+        double add2UserNumbers = ((userNumber + userNumber2) * 2);
+
+
 
 
 
