@@ -27,13 +27,32 @@ public class ConsoleExercises {
 
 //        Prompt a user to enter 3 words, and store each of them in a separate variable. Then, display them back in the console, each on a newline
 
-        System.out.println("Enter 3 words");
-        Scanner sc = new Scanner(System.in);
-        String userInput = sc.next();
-        String user2ndInput = sc.next();
-        String user3rdInput = sc.next();
+//        System.out.println("Enter 3 words");
+//        Scanner sc = new Scanner(System.in);
+//        String userInput = sc.next();
+//        String user2ndInput = sc.next();
+//        String user3rdInput = sc.next();
+//
+//        System.out.println(userInput + "\n" + user2ndInput + "\n" + user3rdInput);
 
-        System.out.println(userInput + "\n" + user2ndInput + "\n" + user3rdInput);
+//        Entering additional words will not be displayed to the console
+
+
+//        Prompt a user to enter a sentence, then store that sentence in a String variable using the next method. Then, display that sentence back to the user.
+
+        System.out.println("Please enter a sentence");
+        Scanner scannerSentence = new Scanner(System.in);
+        String userSentence = scannerSentence.next();
+        System.out.println(userSentence);
+
+//        All the words are not captured in the above code to display on the console, only the first word Telekinesis
+
+
+
+
+
+
+
 
 
     }
