@@ -68,12 +68,13 @@ public class ConsoleExercises {
 //
 //        double perimeterCalc = (2 * anotherLength) + (2 * anotherWidth);
 
-        System.out.println("Enter two number (include a space to separate the two numbers Example: 23 3456)");
+        System.out.println("Enter two numbers");
         Scanner scanner2Numbers = new Scanner(System.in);
-        float userNumber = scanner2Numbers.nextFloat();
-        float userNumber2 = scanner2Numbers.nextFloat();
+        double userNumber = scanner2Numbers.nextDouble();
+        double userNumber2 = scanner2Numbers.nextDouble();
 
         double add2UserNumbers = ((userNumber + userNumber2) * 2);
+        System.out.println("The result of adding these two inputs then multiplying the result by 2 is: " + add2UserNumbers);
 
 
 
