@@ -74,7 +74,12 @@ public class ConsoleExercises {
         double userNumber2 = scanner2Numbers.nextDouble();
 
         double add2UserNumbers = ((userNumber + userNumber2) * 2);
-        System.out.println("The result of adding these two inputs then multiplying the result by 2 is: " + add2UserNumbers);
+        System.out.println("The first number is: " + userNumber);
+        System.out.println("The second number is: " + userNumber2);
+        System.out.println("The result of adding " + userNumber + userNumber2 + "then multiplying by 2 is ");
+        System.out.println("| | |");
+        System.out.println("v v v");
+        System.out.println(add2UserNumbers);
 
 
 
