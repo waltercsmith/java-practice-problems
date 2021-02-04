@@ -68,18 +68,37 @@ public class ConsoleExercises {
 //
 //        double perimeterCalc = (2 * anotherLength) + (2 * anotherWidth);
 
-        System.out.println("Enter two numbers");
-        Scanner scanner2Numbers = new Scanner(System.in);
-        double userNumber = scanner2Numbers.nextDouble();
-        double userNumber2 = scanner2Numbers.nextDouble();
+//        System.out.println("Enter two numbers");
+//        Scanner scanner2Numbers = new Scanner(System.in);
+//        double userNumber = scanner2Numbers.nextDouble();
+//        double userNumber2 = scanner2Numbers.nextDouble();
+//
+//        double add2UserNumbers = ((userNumber + userNumber2) * 2);
+//        System.out.println("The first number is: " + userNumber);
+//        System.out.println("The second number is: " + userNumber2);
+//        System.out.println("The result of adding " + userNumber + userNumber2 + "then multiplying by 2 is ");
+//        System.out.println("| | |");
+//        System.out.println("v v v");
+//        System.out.println(add2UserNumbers);
 
-        double add2UserNumbers = ((userNumber + userNumber2) * 2);
-        System.out.println("The first number is: " + userNumber);
-        System.out.println("The second number is: " + userNumber2);
-        System.out.println("The result of adding " + userNumber + userNumber2 + "then multiplying by 2 is ");
+//        Calculate the area and volume of the classroom
+
+        System.out.println("---Area of a Rectangle--- \n" + "||| \n" + "vvv");
+        System.out.println("Please enter two numbers \n" + "The first number will be the length \n" + "the second number will be the width");
+        Scanner scannerLengthAndWidth = new Scanner(System.in);
+        double userLength = scannerLengthAndWidth.nextDouble(); //user's first input
+        double userWidth = scannerLengthAndWidth.nextDouble();  //user's second input
+
+        double calcArea = userLength * userWidth; //variable that calculates the 2 inputs to retrieve the area
+        System.out.println("The first number is: " + userLength); //displays the first input in the console
+        System.out.println("The second number is: " + userWidth); //displays the second input in the console
         System.out.println("| | |");
         System.out.println("v v v");
-        System.out.println(add2UserNumbers);
+        System.out.format("The area of the classroom is: %.2f",calcArea); //displays the area in the console
+
+
+
+
 
 
 
