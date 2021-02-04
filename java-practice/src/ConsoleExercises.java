@@ -23,5 +23,9 @@ public class ConsoleExercises {
         int userInputInteger = scanner.nextInt();
         System.out.println("The user entered: " + userInputInteger);
 
+//        If the input is not an Integer the console displays an Exception in thread "main" message
+
+
+
     }
 }
