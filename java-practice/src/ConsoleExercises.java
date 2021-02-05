@@ -96,6 +96,18 @@ public class ConsoleExercises {
         System.out.println("v v v");
         System.out.format("The area of the classroom is: %.2f",calcArea); //displays the area in the console
 
+//        Now to calculate the volume = (L * W * H)
+
+        System.out.println("---Volume of a Rectangle--- \n" + "||| \n" + "vvv");
+        System.out.println("Please enter 3 numbers \n" + "The first number will be the length \n" + "the second number will be the width \n" + "the third will be the height");
+
+        Scanner scannerLengthAndWidthAndHeight = new Scanner(System.in);
+        double anotherUserLength = scannerLengthAndWidthAndHeight.nextDouble(); //user's first input
+        double anotherUserWidth = scannerLengthAndWidthAndHeight.nextDouble();  //user's second input
+        double anotherUserHeight = scannerLengthAndWidthAndHeight.nextDouble(); //user's third input
+
+
+
 
 
 
