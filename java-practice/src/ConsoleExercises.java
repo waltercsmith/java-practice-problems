@@ -120,7 +120,13 @@ public class ConsoleExercises {
 //        System.out.println("| | | |");
 //        System.out.println("| | | |");
 
+//        Scanner scanner = new Scanner(System.in);
+//        Scanner secondScanner = scanner.useDelimiter("\n");
+//        System.out.println("Write 3 words, please.");
+//        System.out.println("The user entered: " + secondScanner);
 
+//        The above code is for last two paragraphs of the bonus of the Console IO Module
+//        Having difficulty using the scanner.useDelimiter("\n")
 
         }
     }
