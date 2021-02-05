@@ -98,40 +98,31 @@ public class ConsoleExercises {
 
 //        Now to calculate the volume = (L * W * H)
 
-        System.out.println("---Volume of a Rectangle--- \n" + "||| \n" + "vvv");
-        System.out.println("Please enter 3 numbers \n" + "The first number will be the length \n" + "The second number will be the width \n" + "The third will be the height");
-
-        Scanner scannerLengthAndWidthAndHeight = new Scanner(System.in);
-        double anotherUserLength = scannerLengthAndWidthAndHeight.nextDouble(); //user's first input
-        double anotherUserWidth = scannerLengthAndWidthAndHeight.nextDouble();  //user's second input
-        double anotherUserHeight = scannerLengthAndWidthAndHeight.nextDouble(); //user's third input
-
-        double calcVolume = anotherUserLength * anotherUserWidth * anotherUserHeight;
-        System.out.println("The first number entered is: " + anotherUserLength); //user's 1st input
-        System.out.println("The second number entered is: " + anotherUserWidth); //user's 2nd input
-        System.out.println("The third number entered is: " + anotherUserHeight); //user's 3rd input
-        System.out.println("| | | |");
-        System.out.println("| | | |");
-        System.out.println("| | | |");
-        System.out.println("v v v v");
-        System.out.format("The volume of the classroom is: %.2f \n" , calcVolume);
-        System.out.println("^ ^ ^ ^");
-        System.out.println("| | | |");
-        System.out.println("| | | |");
-        System.out.println("| | | |");
-
-
+//        System.out.println("---Volume of a Rectangle--- \n" + "||| \n" + "vvv");
+//        System.out.println("Please enter 3 numbers \n" + "The first number will be the length \n" + "The second number will be the width \n" + "The third will be the height");
+//
+//        Scanner scannerLengthAndWidthAndHeight = new Scanner(System.in);
+//        double anotherUserLength = scannerLengthAndWidthAndHeight.nextDouble(); //user's first input
+//        double anotherUserWidth = scannerLengthAndWidthAndHeight.nextDouble();  //user's second input
+//        double anotherUserHeight = scannerLengthAndWidthAndHeight.nextDouble(); //user's third input
+//
+//        double calcVolume = anotherUserLength * anotherUserWidth * anotherUserHeight;
+//        System.out.println("The first number entered is: " + anotherUserLength); //user's 1st input
+//        System.out.println("The second number entered is: " + anotherUserWidth); //user's 2nd input
+//        System.out.println("The third number entered is: " + anotherUserHeight); //user's 3rd input
+//        System.out.println("| | | |");
+//        System.out.println("| | | |");
+//        System.out.println("| | | |");
+//        System.out.println("v v v v");
+//        System.out.format("The volume of the classroom is: %.2f \n" , calcVolume);
+//        System.out.println("^ ^ ^ ^");
+//        System.out.println("| | | |");
+//        System.out.println("| | | |");
+//        System.out.println("| | | |");
 
 
 
-
-
-
-
-
-
-
-
-
+        }
     }
-}
+
+
