@@ -80,7 +80,8 @@ public class ControlFlowExercises {
 
 //        ***Display a table of powers***
         Scanner sc = new Scanner(System.in);
-        String userInput = sc.nextLine();
+        int userInput = sc.nextInt();
+        System.out.println("What number would you like to enter?");
 
     }
 
