@@ -11,15 +11,12 @@ public class ControlFlowExercises {
 //    }
 
 //    Create a do-while loop that will count by 2's starting with 0 and ending with 100
-
+        int j = 2;
         int i = 0;
-        int j = 1;
         do{
-            System.out.println(i);
-            System.out.println(j);
-            j++;
+            System.out.println(i * 2);
+            i++;
         }
-        while (j < 101);
-
+        while (i < 51);
     }
 }
