@@ -64,6 +64,7 @@ public class ControlFlowExercises {
 
 //        For multiples of three: print “Fizz” instead of the number.
 //        For the multiples of five: print “Buzz”
+//        For numbers which are multiples of both three and five: print “FizzBuzz”.
         for (int b = 1; b < 101; b++){
             if (b % 3 == 0){
                 System.out.println(b + ": " + "Fizz" );
