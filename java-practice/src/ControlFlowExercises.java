@@ -79,10 +79,23 @@ public class ControlFlowExercises {
 //        }
 
 //        ***Display a table of powers***
-        Scanner sc = new Scanner(System.in);
-        int userInput = sc.nextInt();
         System.out.println("What number would you like to enter?");
 
+        Scanner sc = new Scanner(System.in);
+        int userInput = sc.nextInt();
+
+
+        System.out.println("Here's your table!");
+
+        System.out.println(" number " + " | " + " squared " + " | " + " cubed ");
+        System.out.println("  ----- " + " | " + "  ----- " + " | " + "  ----- ");
+
+        int i = userInput;
+        while (i < i + 1){
+            System.out.println(i + " | " + "  ----- " + " | " + "  ----- ");
+            i++;
+//        The above code DOES NOT WORK! DO NOT RUN!
+        }
     }
 
 }
