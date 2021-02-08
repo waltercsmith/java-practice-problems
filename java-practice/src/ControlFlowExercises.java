@@ -107,13 +107,25 @@ public class ControlFlowExercises {
         Scanner sc2 = new Scanner(System.in);
         int userInput2 = sc2.nextInt();
 
+        if (userInput2 >= 88 & userInput2 <= 100){
+            System.out.println("A");
+        }else if (userInput2 >= 80 & userInput2 <= 87) {
+            System.out.println("B");
+        }else if (userInput2 >= 67 & userInput2 <= 79) {
+            System.out.println("C");
+        }else if (userInput2 >= 60 & userInput2 <= 66) {
+            System.out.println("D");
+        }else  {
+            System.out.println("F");
+        }
 
 
-        System.out.print("Would you like to begin? [y/N]");
 
-        Scanner sc3 = new Scanner(System.in);
-        String userInput3 = sc3.next();
-        boolean confirmation = userInput3.equals("y");
+//        System.out.print("Would you like to begin? [y/N]");
+//
+//        Scanner sc3 = new Scanner(System.in);
+//        String userInput3 = sc3.next();
+//        boolean confirmation = userInput3.equals("y");
 
 
 
