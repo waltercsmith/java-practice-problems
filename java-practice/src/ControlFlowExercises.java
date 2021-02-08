@@ -90,11 +90,10 @@ public class ControlFlowExercises {
         System.out.println(" number " + " | " + " squared " + " | " + " cubed ");
         System.out.println("  ----- " + " | " + "  ----- " + " | " + "  ----- ");
 
-        int i = userInput;
-        while (i < i + 1){
+        int i = 1;
+        while (i < userInput + 1){
             System.out.println(i + " | " + "  ----- " + " | " + "  ----- ");
-            i++;
-//        The above code DOES NOT WORK! DO NOT RUN!
+            i++;                                                //This prints out the numbers 1 through the userInput
         }
     }
 
