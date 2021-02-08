@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class ControlFlowExercises {
 //    Created a class called ControlFlowExercises w/ a main method
 
@@ -65,16 +67,21 @@ public class ControlFlowExercises {
 //        For multiples of three: print “Fizz” instead of the number.
 //        For the multiples of five: print “Buzz”
 //        For numbers which are multiples of both three and five: print “FizzBuzz”.
-        for (int b = 1; b < 101; b++){
-            if (b % 3 == 0){
-                System.out.println(b + ": " + "Fizz" );
-            }else if (b % 5 == 0){
-                System.out.println(b + ": " + "Buzz");
-            }
-            else {
-                System.out.println(b + ": " + "FizzBuzz");
-            }
-        }
+//        for (int b = 1; b < 101; b++){
+//            if (b % 3 == 0){
+//                System.out.println(b + ": " + "Fizz" );
+//            }else if (b % 5 == 0){
+//                System.out.println(b + ": " + "Buzz");
+//            }
+//            else {
+//                System.out.println(b + ": " + "FizzBuzz");
+//            }
+//        }
+
+//        ***Display a table of powers***
+        Scanner sc = new Scanner(System.in);
+        String userInput = sc.nextLine();
+
     }
 
 }
