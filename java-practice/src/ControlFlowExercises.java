@@ -56,12 +56,24 @@ public class ControlFlowExercises {
 //        }
 
 //        Write a program that prints the numbers 1 to 100
-        int a = 1;
-        do {
-            System.out.println(a);
-            a++;
-        }while (a < 101);
+//        int a = 1;
+//        do {
+//            System.out.println(a);
+//            a++;
+//        }while (a < 101);
 
+//        For multiples of three: print “Fizz” instead of the number.
+//        For the multiples of five: print “Buzz”
+        for (int b = 1; b < 101; b++){
+            if (b % 3 == 0){
+                System.out.println(b + ": " + "Fizz" );
+            }else if (b % 5 == 0){
+                System.out.println(b + ": " + "Buzz");
+            }
+            else {
+                System.out.println(b + ": " + "FizzBuzz");
+            }
+        }
     }
 
 }
