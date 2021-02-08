@@ -88,12 +88,15 @@ public class ControlFlowExercises {
         System.out.println("Here's your table!");
 
         System.out.println(" number " + " | " + " squared " + " | " + " cubed ");
-        System.out.println("  ----- " + " | " + "  ----- " + " | " + "  ----- ");
+        System.out.println("  ----- " + " | " + "  ----- " + " | " + "  ----- \t");
 
         int i = 1;
         while (i < userInput + 1){
-            System.out.println(i + " | " + "  ----- " + " | " + "  ----- ");
+            System.out.println("\t" + i + "\t" + " | " + "\t" +  i * i  +  "\t" + " | " + i * i * i);
             i++;                                                //This prints out the numbers 1 through the userInput
+
+
+            /*The above code prompts the user to enter a integer. What ever the input is will be displayed in the console start from 1 to the input. Also the numbers displayed will be squared and cubed*/
         }
     }
 
