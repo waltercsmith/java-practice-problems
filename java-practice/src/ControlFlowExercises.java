@@ -79,25 +79,50 @@ public class ControlFlowExercises {
 //        }
 
 //        ***Display a table of powers***
-        System.out.println("What number would you like to enter?");
-
-        Scanner sc = new Scanner(System.in);
-        int userInput = sc.nextInt();
-
-
-        System.out.println("Here's your table!");
-
-        System.out.println(" number " + " | " + " squared " + " | " + " cubed ");
-        System.out.println("  ----- " + " | " + "  ----- " + " | " + "  ----- \t");
-
-        int i = 1;
-        while (i < userInput + 1){
-            System.out.println("\t" + i + "\t" + " | " + "\t" +  i * i  +  "\t" + " | " + i * i * i);
-            i++;                                                //This prints out the numbers 1 through the userInput
+//        System.out.println("What number would you like to enter?");
+//
+//        Scanner sc = new Scanner(System.in);
+//        int userInput = sc.nextInt();
+//
+//
+//        System.out.println("Here's your table!");
+//
+//        System.out.println(" number " + " | " + " squared " + " | " + " cubed ");
+//        System.out.println("  ----- " + " | " + "  ----- " + " | " + "  ----- \t");
+//
+//        int i = 1;
+//        while (i < userInput + 1){
+//            System.out.println("\t" + i + "\t" + " | " + "\t" +  i * i  +  "\t" + " | " + i * i * i);
+//            i++;
+            //This prints out the numbers 1 through the userInput
 
 
             /*The above code prompts the user to enter a integer. What ever the input is will be displayed in the console start from 1 to the input. Also the numbers displayed will be squared and cubed*/
+//        }
+
+
+//        ***Convert given number grades to letter grades***
+
+        System.out.println("Enter a grade number from 0 to 100");
+        Scanner sc2 = new Scanner(System.in);
+        int userInput2 = sc2.nextInt();
+
+
+
+        System.out.print("Would you like to begin? [y/N]");
+
+        Scanner sc3 = new Scanner(System.in);
+        String userInput3 = sc3.next();
+        boolean confirmation = userInput3.equals("y");
+
+
+
+
+
         }
+
+
+
     }
 
-}
+
