@@ -13,11 +13,13 @@ public class ControlFlowExercises {
 //    Create a do-while loop that will count by 2's starting with 0 and ending with 100
 
         int i = 0;
+        int j = 1;
         do{
             System.out.println(i);
-            i++;
+            System.out.println(j);
+            j++;
         }
-        while (i < 101);
+        while (j < 101);
 
     }
 }
