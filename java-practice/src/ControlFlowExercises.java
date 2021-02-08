@@ -54,6 +54,14 @@ public class ControlFlowExercises {
 //        for (int p = 1; p < 128; p++){
 //            System.out.println(p * 2);
 //        }
+
+//        Write a program that prints the numbers 1 to 100
+        int a = 1;
+        do {
+            System.out.println(a);
+            a++;
+        }while (a < 101);
+
     }
 
 }
