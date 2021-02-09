@@ -42,10 +42,11 @@ public class MethodsExercise {
 
         int userInput = sc.nextInt();
 
-        if (userInput >= min | userInput >= max ){
+        if (userInput >= min & userInput <= max ){
             System.out.println("Great you're within limits");
         }else {
             System.out.println("Try again!");
+            getInteger(min,max);
         }
         return userInput;
     }
@@ -68,8 +69,8 @@ public class MethodsExercise {
 
         getInteger(1,10);
 //        System.out.println("Enter a number between 1 and 10");
-        Scanner sc = new Scanner(System.in);
-        int userInput = sc.nextInt();
+//        Scanner sc = new Scanner(System.in);
+//        int userInput = sc.nextInt();
 
     }
 }
