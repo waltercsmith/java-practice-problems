@@ -51,6 +51,42 @@ public class MethodsExercise {
         return userInput;
     }
 
+
+//    public static int getFactorial(int userInput1){
+//
+//        Scanner sc1 = new Scanner(System.in);
+//        int userInput2 = sc1.nextInt();
+//
+//        if (userInput1 >= 1 & userInput1 <= 10 ){
+//            for (int i = 0; i < userInput1; i++){
+//                return userInput1 * i;
+//
+//            }
+//        }
+//        return userInput1;
+//    }
+
+    public static int repeatInteger(int a){
+        if (a >= 1 & a <= 10){
+            for (int i = 0; i < a; i++){
+                System.out.println(a);
+            }return a;
+        }else { return a * a; } }
+
+        public static int factInt(int b){
+            return (b - 1) * b;
+        }
+
+        //Task create a loop that takes an int argument and subtracts from that int by one until the number zero is reached
+
+    public static int subtractFromInteger(int c){
+        for (int i = 1; i <= c; i++){
+            System.out.println(i);
+
+        }
+        return c;
+    }
+
     public static void main(String[] args) {
 
 //        System.out.println(add(45.4, 34));
@@ -67,10 +103,19 @@ public class MethodsExercise {
 //        Exercise 2
         System.out.println("Enter a number between 1 and 10");
 
-        getInteger(1,10);
+//        getInteger(1,10);
 //        System.out.println("Enter a number between 1 and 10");
 //        Scanner sc = new Scanner(System.in);
 //        int userInput = sc.nextInt();
+
+        Scanner sc1 = new Scanner(System.in);
+        int userInput2 = sc1.nextInt();
+
+//        getFactorial(userInput2);
+//        repeatInteger(userInput2);
+//        System.out.println(factInt(userInput2));
+
+        System.out.println(subtractFromInteger(userInput2));
 
     }
 }
