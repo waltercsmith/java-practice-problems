@@ -20,6 +20,14 @@ public class Input {
         return someWords;
     }
 
+    public static boolean yesNo(boolean trueOrFalse){
+        if (trueOrFalse){
+            System.out.println("yes");
+        }else {
+            System.out.println("no");
+        }
+        return trueOrFalse;
+    }
 
 
     public static void main(String[] args){
