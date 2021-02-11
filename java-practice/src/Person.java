@@ -22,11 +22,16 @@ public class Person {
 
     //Needs to print to the console using the person's name
     public void sayHello(){
-
+//        return String.format("%s says Hey!", this.name);
+        System.out.println(this.name + " says Hey!");
     }
-
+    /*^^^^^ Attempted to use return String.format() with this.name but was prompted with a problem
+    stating that cannot return a value from a method with void result type*/
 
     public static void main(String[] args) {
+        Person walt = new Person("Walt");
+        walt.sayHello();
+
 
     }
 
