@@ -38,6 +38,10 @@ public class Input {
         return userInputInt;
     }
 
+//    public static int getInt2(){
+//        return
+//    }
+
     public static void main(String[] args){
 
 //        System.out.println("Type some words");
