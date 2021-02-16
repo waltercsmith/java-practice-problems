@@ -8,7 +8,7 @@ public class FizzBuzz {
         Scanner sc = new Scanner(System.in);
         int userInput = sc.nextInt();
 
-        if (userInput % 15 == 0){
+        if (userInput % 5 == 0 && userInput % 3 == 0){
             System.out.println("FizzBuzz");
         }
         else if(userInput % 5 == 0){
@@ -17,7 +17,6 @@ public class FizzBuzz {
         else if (userInput % 3 == 0){
             System.out.println("Buzz");
         }
-
         else {
             System.out.println(userInput);
         }
