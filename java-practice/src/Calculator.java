@@ -2,6 +2,13 @@ import java.util.Scanner;
 
 public class Calculator {
 
+    public static String input(String arg){
+        if (arg.equals("quit")){
+            System.out.println("Ending prompt");
+        }
+        return input(arg);
+    }
+
     static  void  sayHello(){
         System.out.println("Hey, how are you?");
     }
@@ -13,10 +20,11 @@ public class Calculator {
         Scanner sc = new Scanner(System.in);
         String userInput = sc.nextLine();
 
-        System.out.println(userInput);
-        if (userInput.equals("quit")){
-            System.out.println("Ending prompt");
-        }
+        input(userInput);
+//        System.out.println(userInput);
+//        if (userInput.equals("quit")){
+//            System.out.println("Ending prompt");
+//        }
 
     }
 }
