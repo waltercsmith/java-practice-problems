@@ -6,6 +6,10 @@ public class Calculator {
         return num1 + num2;
     }
 
+    static double substractNumbers(double num1, double num2){
+        return num1 + num2;
+    }
+
     static void inputTest() {
 //        System.out.println("Type something");
         Scanner sc2 = new Scanner(System.in);

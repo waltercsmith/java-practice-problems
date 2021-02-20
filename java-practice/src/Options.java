@@ -22,7 +22,7 @@ public class Options {
              Calculator.inputTest();
         }
         else if (userInput.equals("add")){
-            System.out.println(Calculator.addNumbers(userInput2,userInput2));
+            System.out.println(Calculator.addNumbers(userInput2,userInput3));
         }
         else if (userInput.equals("no")){
             System.out.println("Goodbye!");
