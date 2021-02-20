@@ -4,17 +4,27 @@ public class Options {
 //    Note: Goal is to prompt the user with a series of questions and depending on the answer will provide a different option
 
     public static void main(String[] args) {
-        System.out.println("Would you like to begin?\n Type \"1\" for yes\n Type \"2\" for no");
+        System.out.println("Would you like to begin?\n Type \"yes\"\n Type \"no\"\n Type \"add\" to add two numbers");
         Scanner optionsScanner = new Scanner(System.in);
         String userInput = optionsScanner.nextLine();
+
+        Scanner optionsScanner2 = new Scanner(System.in);
+        double userInput2 = optionsScanner2.nextDouble();
+
+        Scanner optionsScanner3 = new Scanner(System.in);
+        double userInput3 = optionsScanner3.nextDouble();
+
 
 
         System.out.println(userInput);
 
-        if (userInput.equals("1")){
+        if (userInput.equals("yes")){
              Calculator.inputTest();
         }
-        else {
+        else if (userInput.equals("add")){
+            System.out.println(Calculator.addNumbers(userInput2,userInput2));
+        }
+        else if (userInput.equals("no")){
             System.out.println("Goodbye!");
         }
 
