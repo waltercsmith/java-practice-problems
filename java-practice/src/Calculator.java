@@ -2,15 +2,19 @@ import java.util.Scanner;
 
 public class Calculator {
 
+    static double addNumbers(double num1, double num2){
+        return num1 + num2;
+    }
 
-    static void input() {
-        System.out.println("Type something");
+    static void inputTest() {
+//        System.out.println("Type something");
         Scanner sc2 = new Scanner(System.in);
         String userInput2 = sc2.nextLine();
         if (userInput2.equals("quit")) {
             System.out.println("Ending prompt");
         } else {
-            input();
+            System.out.println(userInput2);
+            inputTest();
 
         }
     }
@@ -23,10 +27,10 @@ public class Calculator {
 
             System.out.println("Type something");
 
-            Scanner sc = new Scanner(System.in);
-            String userInput = sc.nextLine();
+//            Scanner sc = new Scanner(System.in);
+//            String userInput = sc.nextLine();
 
-            input();
+            inputTest();
 //        System.out.println(userInput);
 //        if (userInput.equals("quit")){
 //            System.out.println("Ending prompt");
