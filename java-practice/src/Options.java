@@ -4,7 +4,7 @@ public class Options {
 //    Note: Goal is to prompt the user with a series of questions and depending on the answer will provide a different option
 
     public static void main(String[] args) {
-        System.out.println("Would you like to begin?\n Type \"yes\"\n Type \"no\"\n Type \"add\" to add two numbers");
+        System.out.println("Would you like to begin?\n Type \"yes\"\n Type \"no\"\n Type \"add\" to add two numbers\n Type \"subtract\" to get the difference");
         Scanner optionsScanner = new Scanner(System.in);
         String userInput = optionsScanner.nextLine();
 
@@ -23,6 +23,9 @@ public class Options {
         }
         else if (userInput.equals("add")){
             System.out.println(Calculator.addNumbers(userInput2,userInput3));
+        }
+        else if (userInput.equals("subtract")){
+            System.out.println(Calculator.substractNumbers(userInput2, userInput3));
         }
         else if (userInput.equals("no")){
             System.out.println("Goodbye!");
