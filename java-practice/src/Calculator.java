@@ -10,6 +10,11 @@ public class Calculator {
         return num1 * num2;
     }
 
+    static double squareANumber(double num1){
+        return num1 * num1;
+    }
+
+
     static double divide2Numbers(double num1, double num2){
         return num1 / num2;
     }
