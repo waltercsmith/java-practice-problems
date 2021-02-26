@@ -51,10 +51,14 @@ public class Calculator {
 
             System.out.println("Type something");
 
-//            Scanner sc = new Scanner(System.in);
-//            String userInput = sc.nextLine();
+            Scanner sc = new Scanner(System.in);
+            String userInput = sc.nextLine();
 
             inputTest();
+
+//            System.out.println(modulus2Numbers(10,5));
+
+
 //        System.out.println(userInput);
 //        if (userInput.equals("quit")){
 //            System.out.println("Ending prompt");
