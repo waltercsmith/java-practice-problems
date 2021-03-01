@@ -36,6 +36,9 @@ public class Options {
         else if (userInput.equals("multiply")){
             System.out.println(Calculator.multiply2Numbers(userInput2,userInput3));
         }
+        else if (userInput.equals("divide")){
+            System.out.println(Calculator.divide2Numbers(userInput2,userInput3));
+        }
         else if (userInput.equals("no")){
             System.out.println("Goodbye!");
         }
