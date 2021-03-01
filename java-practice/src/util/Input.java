@@ -31,7 +31,7 @@ public class Input {
         Scanner scannerInt = new Scanner(System.in);
         int userInputInt = scannerInt.nextInt();
         if (userInputInt < min | userInputInt > max){
-            System.out.printf("Opps! Please enter a number within range!");;
+            System.out.print("Opps! Please enter a number within range!");;
             return getInt(min,max);
         }
         System.out.print("Great! You're within range! You entered the integer: ");
