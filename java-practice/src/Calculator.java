@@ -32,6 +32,10 @@ public class Calculator {
 
     static double absoluteValue(double num){return Math.abs(num);}
 
+    static double random1To100(){
+        return (int) (Math.random() * 101);
+    }
+
     static void inputTest() {
 //        System.out.println("Type something");
         Scanner sc2 = new Scanner(System.in);
