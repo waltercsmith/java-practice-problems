@@ -1,9 +1,20 @@
 import java.util.Scanner;
 
+import java.util.HashMap;
+
+
 public class Options {
 //    Note: Goal is to prompt the user with a series of questions and depending on the answer will provide a different option
 
     public static void main(String[] args) {
+
+        HashMap<String, String> capitalCities = new HashMap<String, String>();
+
+        capitalCities.put("England", "London");
+        capitalCities.put("Germany", "Berlin");
+        capitalCities.put("Norway", "Oslo");
+        capitalCities.put("USA", "Washington DC");
+        System.out.println(capitalCities);
         System.out.println("Would you like to begin?\n " +
                 "Type \"yes\"\n " +
                 "Type \"no\"\n " +
