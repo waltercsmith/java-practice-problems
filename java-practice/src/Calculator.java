@@ -36,6 +36,8 @@ public class Calculator {
         return (int) (Math.random() * 101);
     }
 
+
+
     static void inputTest() {
 //        System.out.println("Type something");
         Scanner sc2 = new Scanner(System.in);
@@ -54,6 +56,11 @@ public class Calculator {
         }
 
         public static void main (String[]args){
+
+        boolean isJavaFun = true;
+        boolean isBroccoliAndCheeseGood = false;
+
+            System.out.println(isJavaFun);
 
             System.out.println("Type something");
 
