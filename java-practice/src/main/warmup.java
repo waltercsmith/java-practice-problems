@@ -1,3 +1,4 @@
+package main;
 
 public class warmup {
     /*The parameter weekday is true if it is a weekday,

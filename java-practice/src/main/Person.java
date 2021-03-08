@@ -1,3 +1,5 @@
+package main;
+
 public class Person {
 
     //Created private String property called name

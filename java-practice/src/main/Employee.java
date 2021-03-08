@@ -1,3 +1,5 @@
+package main;
+
 public class Employee extends Main{
     private String department;
 

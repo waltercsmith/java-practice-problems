@@ -1,3 +1,5 @@
+package main;
+
 public class Methods {
 //    public static void changeString(String s) {
 //        s = "Wub a lub a dub dub";
