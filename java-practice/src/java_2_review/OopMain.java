@@ -15,6 +15,14 @@ public class OopMain {
 //    An OBJECT is an INSTANCE of a CLASS
 
 
+//    --------------------      -------------------------------
+
+    public String sayHello(){ return String.format("Welcome %s", studentName); }
+
+//    ^^ A public method that takes no arguments but returns string statement w/ a STRING property (studentName)
+
+
+
 
 
     public static void main(String[] args) {
