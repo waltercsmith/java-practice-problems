@@ -32,6 +32,10 @@ public class OopMain {
 
         walt.studentName = "Walt";
 
+        System.out.println(walt.sayHello()); // <-- using a new instance of the OopMain class to access a property to print a string
+
+
+
 
     }
 
