@@ -53,6 +53,17 @@ public class OopMain {
 
     }
 
+//    A common use case for constructors is to set, or provide default values for, an object's properties
+
+    public OopMain(String name){
+        this.studentName = name;
+    }
+
+//    ⬆️⬆️⬆️⬆️⬆️
+
+/*    ^^^The above instance of the constructor uses the this keyword
+can only use the this keyword inside of an instance method!!
+ */
 
     public static void main(String[] args) {
 
@@ -62,6 +73,9 @@ public class OopMain {
         System.out.println();
 
         walt.studentName = "Walt";
+
+
+
 
         System.out.println(walt.sayHello()); // <-- using a new instance of the OopMain class to access a property to print a string
 
@@ -78,6 +92,15 @@ public class OopMain {
 
     OopMain instanceTwo = new OopMain();
 
+        System.out.println();
+
+    OopMain instanceThree = new OopMain();
+
+        System.out.println();
+
+        System.out.println(waltsAge); //    <-- A STATIC field accessed without using the class as a reference
     }
+
+
 
 }
