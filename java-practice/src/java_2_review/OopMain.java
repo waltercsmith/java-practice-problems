@@ -72,7 +72,10 @@ can only use the this keyword inside of an instance method!!
 
         System.out.println();
 
+
         walt.studentName = "Walt";
+
+
 
 
 
@@ -99,6 +102,9 @@ can only use the this keyword inside of an instance method!!
         System.out.println();
 
         System.out.println(waltsAge); //    <-- A STATIC field accessed without using the class as a reference
+
+        System.out.println();
+
     }
 
 
