@@ -28,6 +28,13 @@ public class Arrays {
 
         System.out.println("The total number of elements in the array called listTwo: " + elements.length);
 
+        int numberOfBugs = (int) Math.floor(Math.random() * 100);
+        int[] myCode = new int[numberOfBugs];
+
+//        System.out.println();
+
+        System.out.println("The total number of elements in this array will change each time it's ran: " + myCode.length);
+
     }
 
 }
