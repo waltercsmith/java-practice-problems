@@ -17,13 +17,16 @@ public class Arrays {
 
         double[] listTwo = new double[4];
 
+        double[] elements;
+        elements = new double[9];
+
         System.out.println("The total number of elements in the array called listTwo: " + listTwo.length);
 
 //        System.out.println("The total number of elements in the array called lists: " + list.length);
 
         System.out.println();
 
-        System.out.println("The total number of elements in the array called listTwo: " + list.length);
+        System.out.println("The total number of elements in the array called listTwo: " + elements.length);
 
     }
 
