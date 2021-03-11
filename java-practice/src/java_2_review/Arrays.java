@@ -33,8 +33,16 @@ public class Arrays {
 
 //        System.out.println();
 
-        System.out.println("The total number of elements in this array will change each time it's ran: " + myCode.length);
+        System.out.println("The total number of elements in this array will change each time it's ran: " + myCode.length + "\n \n");
 
+        int[] numbers = new int[3];
+        numbers[0] = 1;
+        numbers[1] = 2;
+
+        System.out.println(numbers[0] + "\n"); // 1
+        System.out.println(numbers[1] + "\n \n"); // 2
+        System.out.println(numbers[2]); // 0 -- default value
+//        System.out.println(numbers[3]); // ArrayIndexOutOfBoundsException !!!
     }
 
 }
