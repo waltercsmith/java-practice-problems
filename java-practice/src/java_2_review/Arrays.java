@@ -20,6 +20,11 @@ public class Arrays {
         System.out.println("The total number of elements in the array called listTwo: " + listTwo.length);
 
 //        System.out.println("The total number of elements in the array called lists: " + list.length);
+
+        System.out.println();
+
+        System.out.println("The total number of elements in the array called listTwo: " + list.length);
+
     }
 
 }
