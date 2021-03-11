@@ -1,4 +1,5 @@
 package java_2_review;
+//import java.util.Arrays;
 
 public class Arrays {
 
@@ -8,12 +9,17 @@ public class Arrays {
 
 //Arrays have a fixed length when created an is accessed through: .length
 
-
+    static double[] list;
 
     public static void main(String[] args) {
 
-        prices = new double[4];  //  assigned a value to prices that is an array with 4 elements
+//        prices = new double[4];  //  assigned a value to prices that is an array with 4 elements
 
+        double[] listTwo = new double[4];
+
+        System.out.println("The total number of elements in the array called listTwo: " + listTwo.length);
+
+//        System.out.println("The total number of elements in the array called lists: " + list.length);
     }
 
 }
