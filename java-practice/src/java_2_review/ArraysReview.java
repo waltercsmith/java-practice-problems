@@ -64,6 +64,18 @@ public class ArraysReview {
         }
 
         System.out.println( Arrays.equals(languages2,languages));
+
+        System.out.println();
+
+        int[] numbers2 = Arrays.copyOf(numbers, 5);
+        numbers2[3] = 30;
+        numbers2[4] = 26;
+
+        for (int numbers3 : numbers2){
+            System.out.println(numbers3 + "\n");
+        }
+
+
     }
 
 
