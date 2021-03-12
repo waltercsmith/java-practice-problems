@@ -1,7 +1,7 @@
 package java_2_review;
-//import java.util.Arrays;
+import java.util.Arrays;
 
-public class Arrays {
+public class ArraysReview {
 
 //    Arrays are a special kind of object that contain zero or more items called elements
 
@@ -10,6 +10,9 @@ public class Arrays {
 //Arrays have a fixed length when created an is accessed through: .length
 
     static double[] list;
+
+    private static void equals(int[] numbers, String[] languages) {
+    }
 
     public static void main(String[] args) {
 
@@ -41,8 +44,28 @@ public class Arrays {
 
         System.out.println(numbers[0] + "\n"); // 1
         System.out.println(numbers[1] + "\n \n"); // 2
-        System.out.println(numbers[2]); // 0 -- default value
+        System.out.println(numbers[2] + "\n"); // 0 -- default value
 //        System.out.println(numbers[3]); // ArrayIndexOutOfBoundsException !!!
+
+
+        String[] languages = {"html", "css", "javascript", "java"};
+
+        for (int i = 0; i < languages.length; i += 1) {
+            System.out.println(languages[i]);
+        }
+
+        System.out.println();
+
+        String[] languages2 = {"html", "css", "javascript", "java", "mySQL"
+        };
+
+        for (String language2 : languages2) {
+            System.out.println(language2 + "\n");
+        }
+
+        System.out.println( Arrays.equals(languages2,languages));
     }
+
+
 
 }
