@@ -75,6 +75,17 @@ public class ArraysReview {
             System.out.println(numbers3 + "\n");
         }
 
+        System.out.println("--- Line break --- \n");
+
+        int[] [] matrix = {
+                {20, 25, 30},
+                {36, 22, 40},
+                {52, 19, 23}
+        };
+
+        System.out.println(matrix[1][2]);
+
+
 
     }
 
