@@ -9,6 +9,13 @@ public class Inheritance extends OopMain{
 //    A subclass inherits all the fields of it's superclass, and can re-use any of it's functionality.
 
 
+    public Inheritance(String nameInheritancePerson){
+        super(nameInheritancePerson);
+    }
 
+    public static void main(String[] args) {
+
+
+    }
 
 }
