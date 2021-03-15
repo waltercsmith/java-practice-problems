@@ -65,6 +65,10 @@ public class OopMain {
 can only use the this keyword inside of an instance method!!
  */
 
+    public void sayAye(){
+        System.out.println("Aye! What's good?!");
+    }
+
     public static void main(String[] args) {
 
 

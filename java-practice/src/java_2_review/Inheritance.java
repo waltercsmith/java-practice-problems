@@ -8,12 +8,35 @@ public class Inheritance extends OopMain{
 
 //    A subclass inherits all the fields of it's superclass, and can re-use any of it's functionality.
 
+//    SUBCLASSES can also add new fields
+
+//    ---⭐︎⭐ INHERITANCE IS ONE DIMENSIONAL ⭐︎⭐︎---
+
+/*  SUBCLASSES:
+
+        can override methods on the superclass by:
+
+            defining a method with the same name, return type, and parameters as in the superclass
+
+
+            */
+
+
 
     public Inheritance(String nameInheritancePerson){
         super(nameInheritancePerson);
     }
 
-    public static void main(String[] args) {
+
+
+//    ⤵ ⤵ ⤵ ⤵ ⤵ ⤵ ⤵  Overrides a method from the superclass called OopMain
+
+    public void sayAye(){
+        System.out.println("Aye! What's good?!, a greeting from the class called Inheritance!");
+    }
+
+
+        public static void main(String[] args) {
 
 //    Created new instance of the Inheritance subclass
 
@@ -21,6 +44,21 @@ public class Inheritance extends OopMain{
         childOne.sayHello();
 
         System.out.println(childOne.sayHello());
+
+            System.out.println();;
+
+            OopMain ayeFromOopMain = new OopMain();
+
+            Inheritance ayeFromInheritance = new Inheritance("Wallace");
+
+            ayeFromOopMain.sayAye();
+
+            ayeFromOopMain.sayAye();
+
+
+
+
+
 
 
     }
