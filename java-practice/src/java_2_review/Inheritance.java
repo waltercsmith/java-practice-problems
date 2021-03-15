@@ -15,6 +15,13 @@ public class Inheritance extends OopMain{
 
     public static void main(String[] args) {
 
+//    Created new instance of the Inheritance subclass
+
+        Inheritance childOne = new Inheritance("Winston");
+        childOne.sayHello();
+
+        System.out.println(childOne.sayHello());
+
 
     }
 
