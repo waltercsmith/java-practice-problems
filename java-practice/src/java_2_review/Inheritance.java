@@ -27,6 +27,8 @@ public class Inheritance extends OopMain{
         super(nameInheritancePerson);
     }
 
+    public Inheritance() {
+    }
 
 
 //    ⤵ ⤵ ⤵ ⤵ ⤵ ⤵ ⤵  Overrides a method from the superclass called OopMain
@@ -47,6 +49,8 @@ public class Inheritance extends OopMain{
 
             System.out.println();;
 
+            Inheritance person = new Inheritance();
+
             OopMain ayeFromOopMain = new OopMain();
 
             Inheritance ayeFromInheritance = new Inheritance("Wallace");
@@ -54,6 +58,10 @@ public class Inheritance extends OopMain{
             ayeFromOopMain.sayAye();
 
             ayeFromOopMain.sayAye();
+
+            person.sayAye(); /* <--- Needed to create a constructor within the Inheritance subclasses
+            above two objects where printing the same string which was not the goal
+            */
 
 
 
