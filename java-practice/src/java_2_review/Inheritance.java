@@ -38,6 +38,12 @@ public class Inheritance extends OopMain{
     }
 
 
+
+/*    Fields that are PROTECTED not visible outside of the class, but is visible to classes that extend the class that the field is defined in */
+
+
+
+
         public static void main(String[] args) {
 
 //    Created new instance of the Inheritance subclass
