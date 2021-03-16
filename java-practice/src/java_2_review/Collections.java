@@ -16,6 +16,8 @@ public class Collections {
         animeNames.add("Levi Ackerman");
         animeNames.add("Guts");
         System.out.println(animeNames);
+        System.out.println();
+        System.out.println("This is the first element within the array called animeNames: \n" + animeNames.get(0));
     }
 
 
