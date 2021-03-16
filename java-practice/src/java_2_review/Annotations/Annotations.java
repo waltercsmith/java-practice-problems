@@ -1,4 +1,6 @@
-package java_2_review;
+package java_2_review.Annotations;
+
+import java_2_review.Getter;
 
 public class Annotations {
     private String name;
