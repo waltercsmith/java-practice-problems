@@ -5,6 +5,8 @@ public class Accountant extends Worker {
         return "Crunching numbers";
     }
 
+//    An abstract class is used to represent something that needs to be extended
+
     public static void main(String[] args) {
 
         Worker wally = new Accountant();
