@@ -34,7 +34,7 @@ public class Exceptions {
         return userInput;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         int[] numbers = {1,2,3};
         System.out.println(numbers[0] + "\n");
 
@@ -73,7 +73,9 @@ public class Exceptions {
 
         String userInput;
 
-        try {
+
+
+         try {
             userInput = yesOrNo();
             System.out.println("See ya!");
         } catch (Exception e){
