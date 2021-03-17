@@ -15,6 +15,12 @@ public class Exceptions {
         }
     }
 
+//    Exceptions are divided into two main categories: checked and unchecked
+
+//    IMPORTANT!!!!!!
+    /*
+    Checked exceptions must be handled in our code, either with a try-catch, or by declaring them in the method         signature with the throws keyword
+     */
 
     public static void main(String[] args) {
         int[] numbers = {1,2,3};
