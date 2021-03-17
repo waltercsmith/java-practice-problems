@@ -48,6 +48,8 @@ public class Exceptions {
 
         } catch (Exception e){
             System.out.println("This didn't work " + e.getMessage());
+        } finally {
+            System.out.println("The try/catch statements are completed");
         }
 
     }
