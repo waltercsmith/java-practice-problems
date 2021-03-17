@@ -32,7 +32,23 @@ public class Exceptions {
         }
 
         System.out.println();
-        clubEligible(18);
+        clubEligible(19);
+
+        System.out.println();
+
+        int[] nine = new int[9];
+        nine = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9};
+
+        int[] ten = new int[10];
+        ten = new   int[]{10,20,30,40,50,60,70,80,90,100};
+
+
+        try {
+            System.out.println(ten[10]);
+
+        } catch (Exception e){
+            System.out.println("This didn't work " + e.getMessage());
+        }
 
     }
 }
