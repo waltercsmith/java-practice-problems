@@ -23,7 +23,7 @@ public class Exceptions {
     Checked exceptions must be handled in our code, either with a try-catch, or by declaring them in the method         signature with the throws keyword
      */
 
-    public static String yesOrNo(String x) throws Exception{
+    public static String yesOrNo() throws Exception{
         Scanner sc = new Scanner(System.in);
         System.out.println("Would you like to start? \n Type yes or no");
         String userInput = sc.nextLine();
@@ -67,7 +67,19 @@ public class Exceptions {
         } catch (Exception e){
             System.out.println("This didn't work " + e.getMessage());
         } finally {
-            System.out.println("The try/catch statements are completed");
+            System.out.println("The try/catch statements are completed \n \n");
+        }
+
+
+        String userInput;
+
+        try {
+            userInput = yesOrNo();
+            System.out.println("See ya!");
+        } catch (Exception e){
+            System.out.println("Welcome! " + e.getMessage());
+        } finally {
+            System.out.println("Thanks for responding either way");
         }
 
     }
