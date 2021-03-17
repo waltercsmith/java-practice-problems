@@ -1,6 +1,7 @@
 package java_2_review.Exceptions;
 
 import java.lang.Exception;
+import java.util.Scanner;
 
 public class Exceptions {
 
@@ -21,6 +22,17 @@ public class Exceptions {
     /*
     Checked exceptions must be handled in our code, either with a try-catch, or by declaring them in the method         signature with the throws keyword
      */
+
+    public static String yesOrNo(String x) throws Exception{
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Would you like to start? \n Type yes or no");
+        String userInput = sc.nextLine();
+
+        if (userInput.equals("no")){
+            throw new Exception("I guess we'll try tomorrow!");
+        }
+        return userInput;
+    }
 
     public static void main(String[] args) {
         int[] numbers = {1,2,3};
